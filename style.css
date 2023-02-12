@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    min-height: 50px;
+    background-color: lime;
+
+}
+
+.nav-links ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links ul li{
+    margin-left: 10px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    
+}
+
+
+
+    

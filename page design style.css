@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .div{
+    justify-content: center;
+  }
+
+  img{
+    width: 300px;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  span{
+    background-color: red;
+  }
+
+  .mydocument{
+    display: flex;
+    justify-content: center;
+  }
+
+  .mywork{   
+display: flex;
+justify-content: center;
+margin-top: 15px;
+  }

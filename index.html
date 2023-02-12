@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div><a href="#" class="logo">ADVENTURE</a></div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">adventures</a></li>
+                <li><a href="#">support</a></li>
+                <li><a href="#">infos</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+    
+</body>
+   <script>
+    const menuhamberger = document.querySelector(".menu-hamberger")
+    const navlinks = document.querySelector(".nav-links")
+
+    menuhamberger.addEventListener('click',()=>{navlinks.classlisst.toggle('mobile-menu')
+ })
+   </script>
+</html>
